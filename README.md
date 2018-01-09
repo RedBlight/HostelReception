@@ -1,6 +1,6 @@
 # HostelReception
 
-A web based hostel reception management system I made while working as night receptionist in 2013. And then developed it some more in 2014.
+A web based hostel reception management system that I made while working as night receptionist in 2013. And then developed it some more in 2014.
 
 Hostels do not work systematically like hotels do. They can have dormitory rooms, where multiple reservations occupy the
 same room. They can have hotel rooms, where only one reservation stays in a room, but sometimes they use that room a dormitory too.
@@ -11,8 +11,9 @@ Rooms can be added, or deleted (if there are no future reservations), and then u
 
 Everything is thought out and this system has all the necessary stuff an hostel registry must have.
 Apart from that, system has a nice summary panel, where receptionist can see expected arrivals, departures, unpaid fees, and notes pinned by other receptionist.
+Payment amounts can be added in TL, $, €, or £, as touristic places need to work with many different currencies.
 
-Payment amounts can be added in TL, $, €, or £, as touristic places have to work with many different currencies.
+Being a web based application, it works on all platforms, and accessible from anywhere.
 
 ## How to set it up?
 * Create the MySQL database with the given .sql file.
