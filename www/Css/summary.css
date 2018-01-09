@@ -1,0 +1,121 @@
+/* MAIN */
+.sum-segment{
+    display: inline-block;
+    width: 485px;
+    padding: 0px;
+    border: solid 1px #333;
+    vertical-align: top;
+    word-wrap: break-word;
+}
+
+.sum-segment table{
+    margin: -1px;
+    border-collapse: collapse;
+    width: 485px;
+    font-size: 0.7em;
+    color: #000;
+}.sum-segment table td{
+    border: solid 1px #333;
+    padding: 2px;
+}
+
+.sum-segment#arriving{
+    margin: 0 5px 5px 0;
+}.sum-segment#leaving{
+    margin: 0 0 5px 5px;
+}.sum-segment#fees{
+    margin: 5px 5px 0 0;
+}.sum-segment#notes{
+    margin: 5px 0 0 5px;
+}
+
+.sum-segment #cap{
+    background-color: #333;
+    padding: 5px;
+    font-weight: bold;
+}.sum-segment#arriving #cap{
+    color: #0C0;
+    text-shadow: 0 1px 0 #070 , 1px 0 0 #070, 0 -1px 0 #070 , -1px 0 0 #070;
+}.sum-segment#leaving #cap{
+    color: #D22;
+    text-shadow: 0 1px 0 #711 , 1px 0 0 #711, 0 -1px 0 #711 , -1px 0 0 #711;
+}.sum-segment#fees #cap{
+    color: #07D;
+    text-shadow: 0 1px 0 #048 , 1px 0 0 #048, 0 -1px 0 #048 , -1px 0 0 #048;
+}.sum-segment#notes #cap{
+    color: #CC0;
+    text-shadow: 0 1px 0 #770 , 1px 0 0 #770, 0 -1px 0 #770 , -1px 0 0 #770;
+}
+
+.sum-segment #header{
+    width: 485px;
+    background-color: #DDD;
+    border-collapse: collapse;
+    margin: -1px;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #085D7F;
+}
+
+/* ARRIVING - LEAVING */
+
+.sum-segment .sum-date{
+    width: 483px;
+    background-color: #DDD;
+    border: solid #333;
+    border-width: 1px 0;
+    margin: 0;
+    padding: 4px 4px 4px 20px;
+    text-align: left;
+    font-size: 0.7em;
+    font-weight: bold;
+    color: #085D7F;
+}
+
+.sum-segment .col-room{
+    width: 16%; min-width: 16%; max-width: 16%;
+}.sum-segment .col-name{
+    width: 44%; min-width: 44%; max-width: 44%;
+}.sum-segment .col-source{
+    width: 28%; min-width: 28%; max-width: 28%;
+}.sum-segment .col-person{
+    width: 12%; min-width: 12%; max-width: 12%;
+}
+
+/* FEES */
+
+.sum-segment#fees .col-room{
+    width: 16%; min-width: 16%; max-width: 16%;
+}.sum-segment#fees .col-name{
+    width: 40%; min-width: 40%; max-width: 40%;
+}.sum-segment#fees .col-type{
+    width: 26%; min-width: 26%; max-width: 26%;
+}.sum-segment#fees .col-amount{
+    width: 18%; min-width: 18%; max-width: 18%;
+}
+
+/* NOTES */
+
+.sum-segment .col-note{
+    width: 75%; min-width: 75%; max-width: 75%;
+    padding: 3px !important;
+    padding-left: 8px !important;
+    text-align: left;
+}.sum-segment .col-action{
+    width: 25%; min-width: 25%; max-width: 25%;
+}.sum-segment .col-noteadd{
+    padding: 6px !important;
+}
+
+.sum-segment#notes #add{
+    font-size: 0.8em;
+}
+
+
+
+#modal .input-group{
+    width: 100%;
+}
+#modal #new-note{
+    width: 100%;
+}

@@ -1,0 +1,115 @@
+#navbar {
+    position: relative;
+    width: 100%;
+    min-width: 1000px;
+    height: 70px;
+    background: #0087C9;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzU0YjFkOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijg1JSIgc3RvcC1jb2xvcj0iIzBmYTFlMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+    background: -moz-linear-gradient(top,  #0fa1e0 0%, #0087C9 85%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0fa1e0), color-stop(85%,#0087C9));
+    background: -webkit-linear-gradient(top,  #0fa1e0 0%,#0087C9 85%);
+    background: -o-linear-gradient(top,  #0fa1e0 0%,#0087C9 85%);
+    background: -ms-linear-gradient(top,  #0fa1e0 0%,#0087C9 85%);
+    background: linear-gradient(to bottom,  #0fa1e0 0%,#0087C9 85%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0fa1e0', endColorstr='#0087C9',GradientType=0 );
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#navbar #logo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 220px;
+    height: 70px;
+    background-image: url("../Image/logo.png");
+}
+
+#navbar #infobar {
+    position: absolute;
+    top:0px; left:250px;
+    padding: 3px 8px 5px 6px;
+    width: 494px; min-width: 494px; max-width: 494px;
+    height: 25px; min-height: 25px; max-height: 25px;
+    color: #0087C9;
+    font-size: 0.8em;
+    font-weight: bold;
+    border: solid #CCF;
+    border-width: 0px 1px 1px 1px;
+    background: #FFF;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-clip: border-box;
+}
+
+#navbar #infobar .val {
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+#navbar #btnbarl{
+    margin: 0px; padding: 0px;
+    position: absolute;
+    top: 40px;
+    left: 250px;
+    height: 30px;
+    text-align: left;
+}
+
+#navbar #btnbarr{
+    margin: 0px; padding: 0px;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    height: 30px;
+    text-align: center;
+    width: 200px;
+}
+
+#navbar .btno, #navbar .btni{
+    margin-top: -1px;
+    padding: 5px 11px;
+    height: 30px;
+    color: #FFF;
+    display: inline-block;
+    cursor: pointer;
+    background-clip: border-box;
+    font-weight: bold;
+    font-size: 1.1em;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border: none #0099E0;
+	text-shadow: 1px 1px 3px #666;
+}
+
+#navbar .btno:hover, #navbar .btni {
+    background: #0fa1e0;
+    border: solid #0099E0;
+    border-width: 1px 1px 0px 1px;
+    padding: 3px 10px 5px 10px;
+}
+#navbar #exit:hover {
+    margin-top: 0px;
+}
+
+#navbar #welcome{
+    /*background-color: rgba(255,0,0,0.2);*/
+    margin: 0px; padding: 3px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 38px;
+    text-align: center;
+    width: 200px;
+    font-size: 0.7em;
+    color: #FFF;
+}
+#welcome #username{
+    font-weight: bold;
+    font-style: italic;
+}

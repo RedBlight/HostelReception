@@ -1,0 +1,52 @@
+.load-holder {
+    padding: 15px 40px;
+    display: inline-block;
+
+    background: #eeeeee;
+    background-clip: padding-box;
+    border: solid #bbbbbb 1px;
+    border-radius: 5px;
+
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    color: #000;
+    text-align: center;
+}
+
+.login-holder {
+    padding: 25px 19px 25px 25px;
+    display: inline-block;
+
+    background: #eeeeee;
+    background-clip: padding-box;
+    border: solid #bbbbbb 1px;
+    border-radius: 5px;
+
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    color: #FFF;
+    text-align: center;
+}
+
+.login-holder .input-group {
+    width: 318px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+}
+
+.login-holder .form-control {
+    border-radius: 4px !important;
+}
+
+#login-alert {
+    font-weight: bold;
+    text-align: left;
+    margin-top: 15px;
+    display: none;
+}
+
+#login-alert .glyphicon{
+    margin-right: 15px;
+}

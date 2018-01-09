@@ -1,0 +1,155 @@
+#settings-segment{
+    display: inline-block;
+    width: 980px;
+    padding: 0px;
+    vertical-align: top;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+#settings-segment #btnbar{
+    display: inline-block;
+    width: 980px;
+    padding: 0px;
+    margin: 0;
+    vertical-align: top;
+    word-wrap: break-word;
+}
+
+#gutter{
+   width: 980px;
+   height: 6px;
+}
+
+#settings-segment .btno, #settings-segment .btni{
+    display: inline-block;
+    background-color: #333;
+    padding: 5px;
+    font-weight: bold;
+    width: 196px;
+}#settings-segment .btno:hover, #settings-segment .btni:hover{
+    cursor: pointer;
+}
+
+#settings-segment .btno#users{
+    color: #a69d9d;
+}#settings-segment .btno#rooms{
+    color: #a6a29d;
+}#settings-segment .btno#sources{
+    color: #a6a69d;
+}#settings-segment .btno#fees{
+    color: #9da2a6;
+}#settings-segment .btno#payments{
+    color: #9da69d;
+}
+
+#settings-segment .btno#users:hover, #settings-segment .btni#users{
+    color: #D22;
+    text-shadow: 0 1px 0 #711 , 1px 0 0 #711, 0 -1px 0 #711 , -1px 0 0 #711;
+    background-color: #524141;
+}#settings-segment .btno#rooms:hover, #settings-segment .btni#rooms{
+    color: #D82;
+    text-shadow: 0 1px 0 #741, 1px 0 0 #741, 0 -1px 0 #741 , -1px 0 0 #741;
+    background-color: #524941;
+}#settings-segment .btno#sources:hover, #settings-segment .btni#sources{
+    color: #DD2;
+    text-shadow: 0 1px 0 #771, 1px 0 0 #771, 0 -1px 0 #771 , -1px 0 0 #771;
+    background-color: #525241;
+}#settings-segment .btno#fees:hover, #settings-segment .btni#fees{
+    color: #07D;
+    text-shadow: 0 1px 0 #048 , 1px 0 0 #048, 0 -1px 0 #048 , -1px 0 0 #048;
+    background-color: #414a52;
+}#settings-segment .btno#payments:hover, #settings-segment .btni#payments{
+    color: #0C0;
+    text-shadow: 0 1px 0 #070 , 1px 0 0 #070, 0 -1px 0 #070 , -1px 0 0 #070;
+    background-color: #415241;
+}
+
+#settings-segment table{
+    margin: 0;
+    margin-bottom: -1px;
+    border-collapse: collapse;
+    width: 980px;
+    color: #000;
+}#settings-segment table td{
+    border: solid 1px #333;
+    padding: 6px;
+    font-size: 0.8em;
+}#settings-segment table th{
+    border: solid 1px #333;
+    padding: 6px;
+    background-color: #DDD;
+    font-weight: bold;
+    color: #085D7F;
+    font-size: 0.8em;
+    text-align: center;
+}
+#settings-segment #add{
+    font-size: 1.2em;
+}#settings-segment #add td{
+    padding: 7px;
+}
+#settings-segment #show{
+    font-size: 1.1em;
+}#settings-segment #show td{
+    padding: 7px;
+}
+#settings-segment .deleted{
+    display: none;
+}#settings-segment .col-none:hover{
+    background-color: #FFF;
+}
+
+#settings-segment #users .col-id{
+    width: 10%;
+}#settings-segment #users .col-username{
+    width: 40%;
+}#settings-segment #users .col-type{
+    width: 20%;
+}#settings-segment #users .col-action{
+    width: 25%;
+}
+
+#settings-segment #rooms .col-id{
+    width: 8%;
+}#settings-segment #rooms .col-name{
+    width: 20%;
+}#settings-segment #rooms .col-type{
+    width: 25%;
+}#settings-segment #rooms .col-bedcount{
+    width: 10%;
+}#settings-segment #rooms .col-action{
+    width: 37%;
+}#settings-segment #rooms .col-none{
+    width: 100%;
+}
+
+#settings-segment #sources .col-id{
+    width: 10%;
+}#settings-segment #sources .col-name{
+    width: 45%;
+}#settings-segment #sources .col-action{
+    width: 45%;
+}#settings-segment #sources .col-none{
+    width: 100%;
+}
+
+#settings-segment #fees .col-id{
+    width: 10%;
+}#settings-segment #fees .col-name{
+    width: 45%;
+}#settings-segment #fees .col-action{
+    width: 45%;
+}#settings-segment #fees .col-none{
+    width: 100%;
+}
+
+#settings-segment #payments .col-id{
+    width: 10%;
+}#settings-segment #payments .col-name{
+    width: 45%;
+}#settings-segment #payments .col-action{
+    width: 45%;
+}#settings-segment #payments .col-none{
+    width: 100%;
+}

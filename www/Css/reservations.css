@@ -1,0 +1,542 @@
+#res-toolbar{
+    width: 100%;
+    border: none;
+	background: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+#res-toolbar td{
+	width: 33%;
+	padding: 5px 15px 20px 15px;
+}
+#res-toolbar #left{
+    text-align: left;
+}
+#res-toolbar #center{
+    text-align: center;
+	padding: 5px 10px 20px 10px;
+}
+#res-toolbar #right{
+    text-align: right;
+}
+
+#res-btn-addnew, #res-btn-options {
+	width: 210px;
+}
+
+#res-btn-addnew, #res-btn-options, #res-btn-left, #res-btn-right, #res-nav {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	font-size: 0.9em;
+	border-radius: 4px;
+	background-color: #e8e8e8;
+	color: #085D7F;
+	font-weight: bold;
+	border: solid rgb(153, 147, 147) 1px;
+	border-bottom-color: rgb(102, 98, 98);
+	box-shadow: inset 0px 1px 2px 0px #FFF;
+	padding: 15px 20px;
+}
+#res-btn-addnew:hover, #res-btn-options:hover, #res-btn-left:hover, #res-btn-right:hover, #res-nav:hover {
+	background-color: #f0f0f0;
+	box-shadow: inset 0px 2px 5px 1px #FFF;
+}
+#res-btn-addnew:active, #res-btn-options:active, #res-btn-left:active, #res-btn-right:active {
+	background-color: #f0f0f0;
+	padding: 16px 20px 14px 20px;
+	box-shadow: inset 0px 2px 3px 0px #333;
+}
+
+#res-btn-left{
+	border-radius: 4px 0 0 4px;
+	border-right: 0;
+	box-shadow: inset 1px 1px 2px 0px #FFF;
+}
+#res-btn-left:hover{
+	box-shadow: inset 3px 3px 5px -1px #FFF;
+}
+#res-btn-left:active{
+	box-shadow: inset 0px 2px 3px 0px #333;
+}
+
+#res-btn-right{
+
+	border-radius: 0 4px 4px 0;
+	border-left: 0;
+	box-shadow: inset -1px 1px 2px 0px #FFF;
+
+}
+#res-btn-right:hover{
+	box-shadow: inset -3px 3px 5px -1px #FFF;
+}
+#res-btn-right:active{
+	box-shadow: inset 0px 2px 3px 0px #333;
+
+}
+
+#res-nav{
+	font-size: 0.7em;
+	border-radius: 0;
+	height: 50px;
+	box-shadow: inset 0px 3px 2px -2px #FFF;
+	padding: 2px 10px;
+	line-height: 1.8em;
+}
+
+
+
+
+
+
+
+.res-head{
+	margin: 0;
+	margin-bottom: -1px;
+	width: 100%;
+    border-collapse: collapse;
+    border: solid 1px rgb(82, 65, 65);
+}
+.res-head td{
+	border: solid 1px rgb(82, 65, 65);
+	vertical-align: middle;
+	padding: 6px;
+	background-color: #E8E8E8;
+	color: #085D7F;
+	font-weight: bold;
+	font-size: 0.75em;
+	text-align: center;
+	width: 12.5%;
+}
+
+.res-data{
+	margin: 0;
+	margin-bottom: -1px;
+	width: 100%;
+	border-collapse: collapse;
+	border: solid 1px rgb(82, 65, 65);
+}
+.res-data td{
+	border: solid 1px rgb(82, 65, 65);
+	vertical-align: top;
+	padding: 0px;
+	background-color: #FFF;
+	font-size: 0.75em;
+	text-align: center;
+	width: 12.5%;
+}
+.res-data .xh{
+	vertical-align: middle;
+	padding: 6px;
+	background-color: #E8E8E8;
+	color: #085D7F;
+	font-weight: bold;
+}
+
+.res-data .reservc{
+	padding: 6px;
+	min-height: 43px;
+}
+.res-data .reservc:hover{
+	cursor: pointer;
+	/*text-shadow: 1px 1px 7px #244;*/
+}
+
+.res-data .arv0{
+	background-color: rgba( 0, 0, 0, 0.1 );
+	opacity: 0.6;
+}
+
+.res-data .arv1{
+	background-color: rgba( 0, 0, 0, 0.1 );
+}
+
+.res-data .arv2{
+	background-color: rgba( 0, 0, 0, 0.1 );
+	opacity: 0.6;
+}
+
+.res-data .arv3{
+	background-color: rgba(255,0,0,0.1) !important;
+	opacity: 0.6;
+}
+
+
+.res-data .afp{
+	background-color: rgba(0,255,0,0.1);
+}
+
+
+.paxm{
+	vertical-align: middle;
+}
+.pax{
+	vertical-align: middle;
+	font-size: 0.9em;
+	font-style: italic;
+}
+
+
+#res-legend{
+	vertical-align: top;
+}
+
+
+#h0 .popover {
+	max-width: 400px;
+}
+
+#legend{
+	border: none !important;
+}
+#legend td{
+	border: none;
+	background: none;
+	color: #000;
+	text-align: left;
+	font-weight: normal;
+	font-size: 1em;
+}
+
+#lgn-1 { color:#000 !important; background-color: rgba(0,255,0,0.1) !important; width: 37.5% !important; text-align: center !important; }
+#lgn-2 { color:#000 !important; background-color: rgba(0,255,0,0.1) !important; width: 37.5% !important; text-align: center !important; opacity: 0.7 !important;    }
+#lgn-3 { color:#000 !important; background-color: rgba(0,0,0,0.1)   !important; width: 37.5% !important; text-align: center !important; }
+#lgn-4 { color:#000 !important; background-color: rgba(0,255,0,0.1) !important; width: 37.5% !important; text-align: center !important; }
+#lgn-5 { color:#000 !important; background-color: rgba(255,0,0,0.1) !important; width: 37.5% !important; text-align: center !important; }
+#lgn-6 { color:#000 !important; background-color: rgba(0,255,0,0)   !important; width: 37.5% !important; text-align: center !important; }
+#lgn-7 { color:#000 !important; background-color: rgba(0,255,0,0)   !important; width: 37.5% !important; text-align: center !important; font-style:italic !important; }
+#lgn-r { padding-left: 10px !important; font-weight: bold !important; width: 62.5% !important;  }
+
+
+#reservadd-segment{
+	display: inline-block;
+	width: 860px;
+	padding: 0;
+	vertical-align: top;
+	word-wrap: break-word;
+	text-align: center;
+}
+
+#reservadd-segment #r-navbar{
+	display: inline-block;
+	width: 860px;
+	padding: 0;
+	margin: 0;
+	vertical-align: top;
+}
+
+#reservadd-segment #r-body{
+	text-align: left;
+}
+
+
+#reservadd-segment .btno, #reservadd-segment .btni{
+	display: inline-block;
+	background-color: #333;
+	padding: 5px;
+	font-weight: bold;
+	width: 215px;
+}#reservadd-segment .btno:hover, #reservadd-segment .btni:hover{
+	 cursor: pointer;
+ }
+
+
+#reservadd-segment .btno#main{
+	color: #a69d9d;
+}
+#reservadd-segment .btno#people{
+	color: #a6a69d;
+}
+#reservadd-segment .btno#stay{
+	color: #9da2a6;
+}
+#reservadd-segment .btno#fees{
+	color: #9da69d;
+}
+
+#reservadd-segment .btno#main:hover, #reservadd-segment .btni#main{
+	color: #D22;
+	text-shadow: 0 1px 0 #711 , 1px 0 0 #711, 0 -1px 0 #711 , -1px 0 0 #711;
+	background-color: #524141;
+}
+#reservadd-segment .btno#people:hover, #reservadd-segment .btni#people{
+	color: #DD2;
+	text-shadow: 0 1px 0 #771, 1px 0 0 #771, 0 -1px 0 #771 , -1px 0 0 #771;
+	background-color: #525241;
+}
+#reservadd-segment .btno#stay:hover, #reservadd-segment .btni#stay{
+	color: #07D;
+	text-shadow: 0 1px 0 #048 , 1px 0 0 #048, 0 -1px 0 #048 , -1px 0 0 #048;
+	background-color: #414a52;
+}
+#reservadd-segment .btno#fees:hover, #reservadd-segment .btni#fees{
+	color: #0C0;
+	text-shadow: 0 1px 0 #070 , 1px 0 0 #070, 0 -1px 0 #070 , -1px 0 0 #070;
+	background-color: #415241;
+}
+
+#reservadd-segment .r-gutter{
+	width: 860px;
+	height: 6px;
+	padding: 0;
+	margin: 0;
+}
+
+#reservadd-segment #r-gutter-main{
+	background-color: #524141;
+}
+#reservadd-segment #r-gutter-people{
+	background-color: #525241;
+}
+#reservadd-segment #r-gutter-stay{
+	background-color: #414a52;
+}
+#reservadd-segment #r-gutter-fees{
+	background-color: #415241;
+}
+
+.tab-input{
+	display: inline-block;
+	/*margin: 0px -2px -10px -2px;*/
+	font-size: 0.9em;
+}
+
+/* PEOPLE */
+
+#reservadd-segment #r-tab-people, #reservadd-segment #r-tab-p-add{
+	margin: 0;
+	margin-bottom: -1px;
+	border-collapse: collapse;
+	width: 860px;
+	color: #000;
+	border-color: #525241;
+	text-align: center;
+}
+#reservadd-segment #r-tab-people td, #reservadd-segment #r-tab-p-add td {
+	padding: 3px;
+	font-size: 0.8em;
+	text-align: center;
+}
+#reservadd-segment #r-tab-people th {
+	padding: 6px;
+	font-weight: bold;
+	color: #085D7F;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+#reservadd-segment #r-tab-p-add td {
+	padding: 12px;
+}
+
+#reservadd-segment #r-tab-people #p-name {
+	width: 26%;
+}
+#reservadd-segment #r-tab-people #p-passport {
+	width: 20%;
+}
+#reservadd-segment #r-tab-people #p-country {
+	width: 20%;
+}
+#reservadd-segment #r-tab-people #p-birth {
+	width: 26%;
+}
+#reservadd-segment #r-tab-people #p-del {
+	width: 8%;
+}
+
+
+#reservadd-segment #r-tab-people #p-i-name {
+	width: 100%;
+}
+#reservadd-segment #r-tab-people #p-i-passport {
+	width: 100%;
+}
+#reservadd-segment #r-tab-people #p-i-country {
+	width: 100%;
+}
+#reservadd-segment #r-tab-people #p-i-bday {
+	width: 28%;
+	padding: 6px 12px 6px 4px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+#reservadd-segment #r-tab-people #p-i-bmon {
+	width: 39%;
+	padding: 6px 12px 6px 4px;
+	border-radius: 0;
+}
+#reservadd-segment #r-tab-people #p-i-byea {
+	width: 33%;
+	padding: 6px 12px 6px 4px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+#reservadd-segment #p-i-del {
+	color: #444;
+}
+#reservadd-segment #p-i-del:hover {
+	color: #C44;
+	cursor: pointer;
+}
+
+/* FEES */
+
+#reservadd-segment #r-tab-fees, #reservadd-segment #r-tab-f-add{
+	margin: 0;
+	margin-bottom: -1px;
+	border-collapse: collapse;
+	width: 860px;
+	color: #000;
+	border-color: #525241;
+	text-align: center;
+}
+#reservadd-segment #r-tab-fees td, #reservadd-segment #r-tab-f-add td {
+	padding: 3px;
+	font-size: 0.8em;
+	text-align: center;
+}
+#reservadd-segment #r-tab-fees th {
+	padding: 6px;
+	font-weight: bold;
+	color: #085D7F;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+#reservadd-segment #r-tab-f-add td {
+	padding: 12px;
+}
+
+#reservadd-segment #r-tab-fees #f-type {
+	width: 20%;
+}
+#reservadd-segment #r-tab-fees #f-description {
+	width: 39%;
+}
+#reservadd-segment #r-tab-fees #f-amount {
+	width: 15%;
+}
+#reservadd-segment #r-tab-fees #f-currency {
+	width: 10%;
+}
+#reservadd-segment #r-tab-fees #f-paid {
+	width: 8%;
+}
+#reservadd-segment #r-tab-fees #f-del {
+	width: 8%;
+}
+
+#reservadd-segment #f-i-paid:hover {
+	cursor: pointer;
+}
+
+#reservadd-segment #f-i-del {
+	color: #444;
+}
+#reservadd-segment #f-i-del:hover {
+	color: #C44;
+	cursor: pointer;
+}
+
+#reservadd-segment #r-date-stay {
+	padding: 10px;
+	text-align: center;
+}
+
+#reservadd-segment #r-date-stay #s-date-month {
+	width: 200px;
+}
+
+#reservadd-segment #r-date-stay #s-date-year {
+	width: 100px;
+}
+
+
+
+#s-matrix {
+	margin: 0;
+	width: 100%;
+	border-collapse: collapse;
+	border: solid 1px rgb(82, 65, 65);
+	font-size: 0.7em;
+}
+#s-matrix .matrix-h, #s-matrix .matrix-d {
+	padding: 4px 4px 4px 4px;
+	vertical-align: middle;
+	text-align: center;
+	border: solid 1px #414a52;
+	font-weight: bold;
+}
+
+#s-matrix .matrix-h{
+	background-color: #E8E8E8;
+	color: #085D7F;
+}
+#s-matrix .matrix-d{
+	background-color: #FDD;
+	color: #050;
+	font-size: 0.9em;
+}
+#s-matrix .matrix-d:hover {
+	cursor: pointer;
+}
+
+
+#reservadd-segment #r-tab-stay {
+	margin: 10px 0;
+	border-collapse: collapse;
+	width: 860px;
+	color: #000;
+	border-color: #414a52;
+	text-align: center;
+}
+#reservadd-segment #r-tab-stay td {
+	padding: 3px;
+	font-size: 0.8em;
+	text-align: center;
+}
+#reservadd-segment #r-tab-stay th {
+	padding: 6px;
+	font-weight: bold;
+	color: #085D7F;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+#reservadd-segment #r-tab-stay #s-ind {
+	width: 15%;
+}
+#reservadd-segment #r-tab-stay #s-date {
+	width: 35%;
+}
+#reservadd-segment #r-tab-stay #s-date {
+	width: 35%;
+}
+#reservadd-segment #r-tab-stay #s-del {
+	width: 15%;
+}
+
+#reservadd-segment #s-i-del {
+	color: #444;
+}
+#reservadd-segment #s-i-del:hover {
+	color: #C44;
+	cursor: pointer;
+}
+
+/*
+<table id="r-tab-stay">
+	<tr id="th">
+		<th id="s-ind">#</th>
+		<th id="s-date">Date</th>
+		<th id="s-room">Room</th>
+		<th id="s-del">Delete</th>
+	</tr>
+</table>
+                                                                                                                                 */
