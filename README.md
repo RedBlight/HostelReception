@@ -37,6 +37,7 @@ http://localhost/	-> Root address of the website
 ```
 * Put all the files to your server, everything works correctly with the PHP version 5.3.26.
 * Create a Linux cronjob for the "Cron/update-currency.php" script.
+* Default user is "root", password is "1".
 * "dbadd.php" script can used to fill the registry with fake reservations. Can be used for testing.
 
 ## TO DO List (I'm not working on it):
