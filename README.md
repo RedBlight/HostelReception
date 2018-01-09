@@ -36,6 +36,7 @@ http://localhost/	-> Root address of the website
 ```
 * Put all the files to your server, everything works correctly with the PHP version 5.3.26.
 * Create a Linux cronjob for the "Cron/update-currency.php" script.
+* "dbadd.php" script can used to fill the registry with fake reservations. Can be used for testing.
 
 ## TO DO List (I'm not working on it):
  * Add "People" page, where list of every people stayed in the hostel can be seen, and can be searched.
@@ -49,8 +50,8 @@ http://localhost/	-> Root address of the website
 
 ![HostelReception SS1](img/ss1.png "Hostel Reception SS1")
 
-![Alt text](img/ss2.png "PHP")
+![HostelReception SS2](img/ss2.png "Hostel Reception SS2")
 
-![Alt text](img/ss3.png "PHP")
+![HostelReception SS3](img/ss3.png "Hostel Reception SS3")
 
-![Alt text](img/ss4.png "PHP")
+![HostelReception SS4](img/ss4.png "Hostel Reception SS4")
