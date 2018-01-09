@@ -13,10 +13,10 @@ class Control
     const C_USERID = 0;
     const C_KEY = 1;
 
-    const DB_SERVER = "localhost";
-    const DB_USERNAME = "root";
-    const DB_PASSWORD = "";
-    const DB_DATABASE = "mahmutak_reception";
+    const DB_SERVER = "###DBserver###";
+    const DB_USERNAME = "###DBuser###";
+    const DB_PASSWORD = "###DBpass###";
+    const DB_DATABASE = "###DBname###";
 
     static function ConnectDatabase()
     {

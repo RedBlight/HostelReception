@@ -1,6 +1,6 @@
 HMS.Designer.SetAsCaptcha = function( elem_id )
 {
-	Recaptcha.create( "6LfGMt8SAAAAAG3l5rmgDChrtDwCyKA8CF2cifZn", elem_id, { theme: "white", lang: "en" } );
+	Recaptcha.create( "#PubKey#", elem_id, { theme: "white", lang: "en" } );
 };
 
 HMS.Designer.AddCodeport = function()

@@ -34,12 +34,12 @@
 
 function recaptcha_get_publickey()
 {
-   return "6LfGMt8SAAAAAG3l5rmgDChrtDwCyKA8CF2cifZn";
+   return "#PubKey#";
 }
 
 function recaptcha_get_privatekey()
 {
-    return "6LfGMt8SAAAAABIOikNBnDt3EcqvDChmlKC422xz";
+    return "#PrivKey#";
 }
 
 /**
