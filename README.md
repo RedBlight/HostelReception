@@ -35,6 +35,7 @@ http://localhost/	-> Root address of the website
 #PubKey#		-> reCAPTCHA public key
 ```
 * Put all the files to your server, everything works correctly with the PHP version 5.3.26.
+* Create a Linux cronjob for the "Cron/update-currency.php" script.
 
 ## TO DO List (I'm not working on it):
  * Add "People" page, where list of every people stayed in the hostel can be seen, and can be searched.
@@ -43,3 +44,13 @@ http://localhost/	-> Root address of the website
  * Fix the cronjob script that updates foreign currency rates periodically. It was working till 2016, when the information source changed the way they present the information.
  * Store currency rates daily, so that more detailed financial reports can be generated in the future.
  * ... Think of more improvements.
+ 
+## Here is some screenshots:
+
+![HostelReception SS1](img/ss1.png "Hostel Reception SS1")
+
+![Alt text](img/ss2.png "PHP")
+
+![Alt text](img/ss3.png "PHP")
+
+![Alt text](img/ss4.png "PHP")
