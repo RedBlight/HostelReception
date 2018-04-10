@@ -3,7 +3,7 @@
 A web based hostel reception management system that I made while working as night receptionist in 2013. And then developed it some more in 2014.
 
 Hostels do not work systematically like hotels do. They can have dormitory rooms, where multiple reservations occupy the
-same room. They can have hotel rooms, where only one reservation stays in a room, but sometimes they use that room a dormitory too.
+same room. They can have hotel rooms, where only one reservation stays in a room, but sometimes they use that room as a dormitory too.
 They sometimes expand and add new rooms. Sometimes they have to remove some rooms. Sometimes, they change the room their customers staying in, in order to be able to fill the hostel as much as possible.
 
 For this reason, multiple reservations can stay in a room in this reception management system. And a reservation can stay in different rooms across their accommodation time.
