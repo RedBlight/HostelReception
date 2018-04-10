@@ -6,7 +6,7 @@ Hostels do not work systematically like hotels do. They can have dormitory rooms
 
 For this reason, multiple reservations can stay in a room in this reception management system. And a reservation can stay in different rooms across their accommodation time. Rooms can be added, or deleted (if there are no future reservations), and then undeleted again. Past reservation data do not get lost.
 
-Everything is thought out and this system has all the necessary stuff an hostel registry must have. Apart from that, system has a nice summary panel, where receptionist can see expected arrivals, departures, unpaid fees, and notes pinned by other receptionist. Payment amounts can be added in TL, $, €, or £, as touristic places need to work with many different currencies.
+Everything is thought out and this system has all the necessary stuff an hostel registry must have (of course there is always a room for improvement).  Apart from that, system has a nice summary panel, where receptionist can see expected arrivals, departures, unpaid fees, and notes pinned by other receptionist. Payment amounts can be added in TL, $, €, or £, as touristic places need to work with many different currencies.
 
 Being a web based application, it works on all platforms that has a web browser, and accessible from anywhere with internet connection.
 
